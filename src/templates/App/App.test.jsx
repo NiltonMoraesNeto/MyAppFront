@@ -10,7 +10,7 @@ test('renders learn react link', () => {
   }).parentElement;
   expect(headingContainer).toHaveStyle({
     //background: 'blue',
-    background: theme.colors.mainBg,
+    background: theme.colors.primaryColor,
   });
   expect(headingContainer).toMatchSnapshot();
   expect(headingContainer).toHaveStyleRule('background', 'blue');
